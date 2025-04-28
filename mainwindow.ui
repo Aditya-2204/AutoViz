@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>811</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: rgb(30,30,30);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableView" name="viewProjects">
+    <property name="geometry">
+     <rect>
+      <x>155</x>
+      <y>1</y>
+      <width>651</width>
+      <height>581</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>155</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="recentProjects">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border-radius: 0px;
+	background: rgb(0,57,77);
+
+	padding: 5px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Recent Projects</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="openProjects">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border-radius: 0px;
+	background: rgb(0,57,77);
+
+	padding: 10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Open Project</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTextEdit" name="displayModule">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>551</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuExport_Robot_Data">
+     <property name="title">
+      <string>Export Robot Data</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="action_pdf"/>
+     <addaction name="action_json"/>
+    </widget>
+    <addaction name="actionOpen_Project"/>
+    <addaction name="menuExport_Robot_Data"/>
+   </widget>
+   <widget class="QMenu" name="menuRun">
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="actionRun"/>
+    <addaction name="actionRun_Debug"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuRun"/>
+  </widget>
+  <action name="actionOpen_Project">
+   <property name="text">
+    <string>Open Project</string>
+   </property>
+  </action>
+  <action name="action_pdf">
+   <property name="text">
+    <string>.pdf</string>
+   </property>
+  </action>
+  <action name="action_json">
+   <property name="text">
+    <string>.json</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="text">
+    <string>Run</string>
+   </property>
+  </action>
+  <action name="actionRun_Debug">
+   <property name="text">
+    <string>Run &amp; Debug</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

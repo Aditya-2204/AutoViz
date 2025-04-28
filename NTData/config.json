@@ -1,0 +1,10 @@
+{
+  "free-port": 53889,
+  "swerve-modules": {
+    "LF": "leftFront",
+    "LB": "leftBack",
+    "RF": "rightFront",
+    "RB": "rightBack"
+  },
+  "file-directory" : "/Users/adityachakraborty/Desktop/Code/Java/Robotics/2025/NetworkTablesDrivetrain"
+}

@@ -1,0 +1,9 @@
+{
+  "free-port": 58056,
+  "swerve-modules": {
+    "LF": "leftFront",
+    "LB": "leftBack",
+    "RF": "rightFront",
+    "RB": "rightBack"
+  }
+}
