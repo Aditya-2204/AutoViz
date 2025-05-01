@@ -30,47 +30,34 @@ QJsonObject readJson(const QString &filePath) {
     return QJsonObject(); // catch-all fallback
 }
 
-void writeJson(const QString &filePath, const QString &key, const QString &value)
-{
-    // Open the file for reading
+bool editJsonFile(const QString& filePath, const QString& key, const QJsonValue& newValue) {
     QFile file(filePath);
-    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qWarning() << "Failed to open file:" << file.errorString();
-        return;
+    if (!file.open(QIODevice::ReadWrite | QIODevice::Text)) {
+        return false;
     }
 
-    // Read all the data from the file
-    QByteArray jsonData = file.readAll();
-    file.close();
+    QByteArray fileData = file.readAll();
+    QJsonParseError jsonError;
+    QJsonDocument jsonDoc = QJsonDocument::fromJson(fileData, &jsonError);
 
-    // Parse the JSON data
-    QJsonParseError parseError;
-    QJsonDocument jsonDoc = QJsonDocument::fromJson(jsonData, &parseError);
-
-    if (parseError.error != QJsonParseError::NoError) {
-        qWarning() << "Failed to parse JSON:" << parseError.errorString();
-        return;
+    if (jsonError.error != QJsonParseError::NoError) {
+        file.close();
+        return false;
     }
 
-    // Convert the document to an object
+    if (!jsonDoc.isObject()) {
+        file.close();
+        return false;
+    }
+
     QJsonObject jsonObj = jsonDoc.object();
+    jsonObj[key] = newValue;
+    jsonDoc.setObject(jsonObj);
 
-    // Add or update the key-value pair
-    jsonObj[key] = value;
-
-    // Create a new JSON document with the updated object
-    QJsonDocument updatedDoc(jsonObj);
-
-    // Open the file for writing
-    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-        qWarning() << "Failed to open file for writing:" << file.errorString();
-        return;
-    }
-
-    // Write the updated JSON data to the file
-    file.write(updatedDoc.toJson());
+    file.seek(0);
+    file.write(jsonDoc.toJson());
+    file.resize(file.pos()); // Truncate any remaining data
     file.close();
-
-    qDebug() << "Updated JSON written to" << filePath;
+    return true;
 }
 

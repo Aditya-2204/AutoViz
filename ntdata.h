@@ -9,6 +9,6 @@
 
 void startServer(QProcess *process);
 void connectToNT(QTcpSocket *socket);
-QJsonObject extractModuleData(QTcpSocket *socket, QTextEdit *textEdit);
+QJsonObject extractModuleData(QTcpSocket *socket, QByteArray buffer);
 
 #endif // NTDATA_H

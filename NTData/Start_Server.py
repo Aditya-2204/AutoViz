@@ -1,24 +1,47 @@
 def start_server():
+    import json
     import subprocess
+    import os
     import signal
     import sys
-    import os
-    """
-    Starts the NetworkTables server and listens for incoming connections.
-    The server sends swerve module data to the connected client.
-    """
-    # Start gradlew, but make sure it stays attached
-    gradle_proc = subprocess.Popen(
-        ["./gradlew", "simulateJava"],
-        cwd="/Users/adityachakraborty/Desktop/Code/Java/Robotics/2025/NetworkTablesDrivetrain",
-        preexec_fn=os.setsid  # <- important
-    )
+
+
+    # Global so the main thread can access it
+    gradle_proc = None
+
+
+    # Get project directory
+    cwd = os.getcwd()
+    cwd = cwd.replace("build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS","")
+    config_loc = os.path.join(cwd, "NTData/config.json")
+
+
+    with open(config_loc, "r") as file:
+        data = json.load(file)
+
+    project_dir = data["file-directory"]
 
     def cleanup(signum, frame):
-        os.killpg(os.getpgid(gradle_proc.pid), signal.SIGTERM)
+        print(f"Received signal {signum}, terminating gradlew...")
+        global gradle_proc
+        if gradle_proc is not None:
+            try:
+                # Terminate the process group
+                # This will kill all processes in the group, including the subprocess
+                os.killpg(os.getpgid(gradle_proc.pid), signal.SIGTERM)
+            except Exception as e:
+                # If the process has already terminated, we might get an error
+                print(f"Error killing gradlew: {e}")
         sys.exit(0)
 
-    signal.signal(signal.SIGTERM, cleanup)
-    signal.signal(signal.SIGINT, cleanup)
+    def start_gradlew():
+        global gradle_proc
+        # Check if gradlew is already running
+        gradle_proc = subprocess.Popen(
+            ["./gradlew", "simulateJava"],
+            cwd=project_dir,
+            preexec_fn=os.setsid  # Create new process group
+        )
+        gradle_proc.wait()
 
-    gradle_proc.wait()
+    return (cleanup, start_gradlew)

@@ -5,6 +5,7 @@
 #include <QJsonArray>
 #include <QProcess>
 #include <QTcpSocket>
+#include <QFileSystemWatcher>
 
 
 QT_BEGIN_NAMESPACE
@@ -23,8 +24,10 @@ public:
 
 private:
     QTcpSocket *socket;
+    QByteArray buffer;
     Ui::MainWindow *ui;
     QProcess *simProcess = new QProcess(); //Start and End Simulation Server
+    QFileSystemWatcher *watcher = new QFileSystemWatcher();
 
 private slots:
     void startProject();

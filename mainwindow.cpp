@@ -17,6 +17,7 @@
 #include <QCloseEvent>
 #include <signal.h>
 #include <QFileDialog>
+#include <QFileSystemWatcher>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -93,33 +94,35 @@ void MainWindow::closeEvent(QCloseEvent *event) {
 
 
 void MainWindow::startProject() {
+    // Open a QFileDialog that only allows folder selection
+    QString folder = QFileDialog::getExistingDirectory(this, "Select Folder");
 
-
-    //TODO - ADD A DIRECTORY NAVIGATING FEATURE
-    QString directory = QFileDialog::getExistingDirectory(this, "Select Folder", "", QFileDialog::ShowDirsOnly);  //TEST
-
-    if (!directory.isEmpty()) {
-        qDebug() << "Folder selected:" << directory;
-        // Use the selected directory path...
-    }
 
     QDir dir;
     QString cwd = dir.currentPath();
-    cwd.remove("/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS");
-    QString configPath = "/NTData/config.json";
+    cwd.remove("/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS");
+    QString const configPath = "/NTData/config.json";
 
+    QString filePath = cwd+configPath;
+    QString keyToEdit = "file-directory";
+    QJsonValue newValue(folder);
 
+    qDebug() << "Config.json @ path: " << filePath;
+    qDebug() << keyToEdit << ": " << newValue;
 
-
-    writeJson(configPath, "file-directory", directory);
-
+    editJsonFile(filePath, keyToEdit, newValue);
 
 
     startServer(simProcess); // from ntdata.h - START SIMULATION SERVER ON LOCALHOST
 
-    connectToNT(socket); // fron ntdata.h
+    qDebug() << QFile::exists(filePath);
+
+    watcher->addPath(filePath);
+    connect(watcher, &QFileSystemWatcher::fileChanged, this, [=] {
+        connectToNT(socket);
+    });
     connect(socket, &QTcpSocket::readyRead, this, [=]{
-        extractModuleData(socket,ui->displayModule); //Continuously extract module data fromthe sim when the Tcp is ready
+        extractModuleData(socket,buffer); //Continuously extract module data fromthe sim when the Tcp is ready
     });
 
 

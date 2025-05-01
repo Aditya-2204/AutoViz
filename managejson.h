@@ -7,6 +7,6 @@
 // Reads a JSON file and returns its root object.
 // Optionally accepts an arrayKey if you're extracting a sub-object from an array (not used yet).
 QJsonObject readJson(const QString &filePath);
-void writeJson(const QString &filePath, QString key, QString value); //TODO: Write a class that writes to the config.json
+bool editJsonFile(const QString& filePath, const QString& key, const QJsonValue& newValue); //TODO: Write a class that writes to the config.json
 
 #endif // READJSON_H

@@ -23,9 +23,12 @@ void startServer(QProcess *process /*Import pre-existing nullptr
                                     same process - that is the
                                     sim server*/
                 ){
+    if(process->state()==QProcess::Running){
+        process->terminate();
+    }
     QDir dir;
     QString cwd = dir.currentPath(); //get current path
-    cwd.remove("/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS"); //navigate to code directory
+    cwd.remove("/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS"); //navigate to code directory
 
 
     process->setWorkingDirectory(cwd);
@@ -43,13 +46,14 @@ void connectToNT(QTcpSocket *socket /*This nullptr is to mitigate
                                     the same socket being called
                                     twice*/
                 ){
+
     QDir dir;
     QString cwd = dir.currentPath();
-    cwd.remove("/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS");
+    cwd.remove("/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/AutoViz.app/Contents/MacOS");
     QString configPath = "/NTData/config.json";
 
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(2500)); //Wait for the port variable in config.json to update, precisely 2500ms
+    std::this_thread::sleep_for(std::chrono::milliseconds(7000)); //Wait for the port variable in config.json to update, precisely 2500ms
     QJsonObject config = readJson(cwd + configPath);
     int port = config.value("free-port").toInt();
 
@@ -57,19 +61,37 @@ void connectToNT(QTcpSocket *socket /*This nullptr is to mitigate
     socket->connectToHost(QHostAddress::LocalHost, port);
 
     // Wait for connection with timeout
-    if (!socket->waitForConnected(2000)) {
-        qWarning() << "Failed to connect:" << socket->errorString();
-        return;
+    if(socket->waitForConnected(3000)){
+        qInfo() << "Connected!";
     }
-    qInfo() << "Connected!";
+    qInfo() << "Unable to Connect";
+
+    ;
 }
 
-QJsonObject extractModuleData(QTcpSocket *socket, QTextEdit *textEdit) {
-    QThread::msleep(1000);
-    QByteArray data = socket->readAll();
-    qInfo() << "Received: " << data;
-    return QJsonObject();
+QJsonObject extractModuleData(QTcpSocket *socket, QByteArray buffer) {
+    buffer.append(socket->readAll());
 
+    while (true) {
+        int newlineIndex = buffer.indexOf('\n');
+        if (newlineIndex == -1)
+            break;
+
+        QByteArray line = buffer.left(newlineIndex);
+        buffer.remove(0, newlineIndex + 1);
+
+        QJsonParseError error;
+        QJsonDocument doc = QJsonDocument::fromJson(line, &error);
+        if (error.error == QJsonParseError::NoError && doc.isObject()) {
+            QJsonObject obj = doc.object();
+            qDebug() << "Received JSON:" << obj;
+            // You can emit a signal here or call a handler to do something with `obj`
+        } else {
+            qWarning() << "Invalid JSON received:" << line;
+        }
+    }
+
+    return QJsonObject();
 }
 
 

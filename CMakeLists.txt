@@ -32,6 +32,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 
         ntdata.cpp
         ntdata.h
+        projects.h projects.cpp
 
 
 

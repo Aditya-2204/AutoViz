@@ -48,10 +48,10 @@
       <x>0</x>
       <y>0</y>
       <width>155</width>
-      <height>121</height>
+      <height>51</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
      <property name="spacing">
       <number>0</number>
      </property>
@@ -64,30 +64,6 @@
      <property name="rightMargin">
       <number>10</number>
      </property>
-     <item>
-      <widget class="QPushButton" name="recentProjects">
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>40</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	border-radius: 0px;
-	background: rgb(0,57,77);
-
-	padding: 5px;
-}</string>
-       </property>
-       <property name="text">
-        <string>Recent Projects</string>
-       </property>
-       <property name="default">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
      <item>
       <widget class="QPushButton" name="openProjects">
        <property name="styleSheet">
@@ -104,16 +80,6 @@
       </widget>
      </item>
     </layout>
-   </widget>
-   <widget class="QTextEdit" name="displayModule">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>20</y>
-      <width>551</width>
-      <height>511</height>
-     </rect>
-    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
