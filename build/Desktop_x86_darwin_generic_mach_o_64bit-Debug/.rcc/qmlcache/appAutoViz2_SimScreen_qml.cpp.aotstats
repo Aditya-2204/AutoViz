@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 1576,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 10
+                    }
+                ],
+                "filepath": "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/SimScreen.qml"
+            }
+        ],
+        "moduleId": "AutoViz2(appAutoViz2)"
+    }
+]

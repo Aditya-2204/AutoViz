@@ -1,0 +1,12 @@
+--bare
+-I
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug
+-I
+/Users/adityachakraborty/Qt/6.8.2/macos/qml
+--resource
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qmake_AutoViz2.qrc
+--resource
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/appAutoViz2_raw_qml_0.qrc
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/Main.qml
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/SimScreen.qml
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/Robot.qml

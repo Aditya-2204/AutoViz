@@ -11,12 +11,13 @@
 
 #include <chrono>
 #include <thread>
-
-#include <QTextEdit>
-
 #include <QThread>
+#include <QVector2D>
+#include <QJsonArray>
 
-#include <QTextEdit>
+#include <cmath>
+
+
 
 void startServer(QProcess *process /*Import pre-existing nullptr
                                     process to start and end the
@@ -64,7 +65,9 @@ void connectToNT(QTcpSocket *socket /*This nullptr is to mitigate
     if(socket->waitForConnected(3000)){
         qInfo() << "Connected!";
     }
-    qInfo() << "Unable to Connect";
+    else{
+        qInfo() << "Unable to Connect";
+    }
 
     ;
 }
@@ -94,5 +97,29 @@ QJsonObject extractModuleData(QTcpSocket *socket, QByteArray buffer) {
     return QJsonObject();
 }
 
+QVector2D computeRobotVelocity(const QJsonObject &modules) {
+    double sumX = 0.0;
+    double sumY = 0.0;
+
+    const QStringList keys = { "FL", "FR", "BL", "BR" };
+
+    for (const QString &key : keys) {
+        QJsonObject moduleData = modules.value(key).toObject();
+        double velocity = moduleData.value("velocity").toDouble();
+        double angle = moduleData.value("angle").toDouble();
+
+        double angleRad = angle*(M_PI/180);
+
+        double vx = velocity*std::cos(angleRad);
+        double vy = velocity*std::sin(angleRad);
+
+        sumX+=vx;
+        sumY+=vy;
+    }
+
+    return QVector2D(sumX,sumY);
+
+
+}
 
 

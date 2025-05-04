@@ -1,0 +1,14 @@
+-rootPath
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2
+-cmake-output
+-output-file
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/qml_imports/appAutoViz2_build.cmake
+-importPath
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz2
+-importPath
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug
+-importPath
+/Users/adityachakraborty/Qt/6.8.2/macos/qml
+-qrcFiles
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qmake_AutoViz2.qrc
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/appAutoViz2_raw_qml_0.qrc

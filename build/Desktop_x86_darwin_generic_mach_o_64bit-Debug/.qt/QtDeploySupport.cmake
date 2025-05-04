@@ -34,7 +34,7 @@ endif()
 set(__QT_DEPLOY_SYSTEM_NAME "Darwin")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "/Users/adityachakraborty/Qt/6.8.2/macos/bin/macdeployqt")
-set(__QT_DEPLOY_IMPL_DIR "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt")
+set(__QT_DEPLOY_IMPL_DIR "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_DEPLOY_GENERATOR_IS_MULTI_CONFIG "0")
@@ -58,8 +58,9 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/QtDeployTargets.cmake"
+    "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/QtDeployTargets.cmake"
     "/Users/adityachakraborty/Qt/6.8.2/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/Users/adityachakraborty/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

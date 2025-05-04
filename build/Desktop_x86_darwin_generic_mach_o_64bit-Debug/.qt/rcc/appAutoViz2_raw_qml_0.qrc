@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/AutoViz2/">
+    <file alias="Main.qml">/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/Main.qml</file>
+    <file alias="SimScreen.qml">/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/SimScreen.qml</file>
+    <file alias="Robot.qml">/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/Robot.qml</file>
+  </qresource>
+</RCC>
+

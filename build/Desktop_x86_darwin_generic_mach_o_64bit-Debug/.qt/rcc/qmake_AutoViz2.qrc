@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/AutoViz2">
+    <file alias="qmldir">/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz2/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz
+CMAKE_SOURCE_DIR = /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug
+CMAKE_BINARY_DIR = /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,67 +162,500 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AutoViz
+# Target rules for targets named appAutoViz2
 
 # Build rule for target.
-AutoViz: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AutoViz
-.PHONY : AutoViz
+appAutoViz2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2
+.PHONY : appAutoViz2
 
 # fast build rule for target.
-AutoViz/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/build
-.PHONY : AutoViz/fast
+appAutoViz2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build
+.PHONY : appAutoViz2/fast
 
 #=============================================================================
-# Target rules for targets named AutoViz_autogen_timestamp_deps
+# Target rules for targets named appAutoViz2_qmltyperegistration
 
 # Build rule for target.
-AutoViz_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AutoViz_autogen_timestamp_deps
-.PHONY : AutoViz_autogen_timestamp_deps
+appAutoViz2_qmltyperegistration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_qmltyperegistration
+.PHONY : appAutoViz2_qmltyperegistration
 
 # fast build rule for target.
-AutoViz_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz_autogen_timestamp_deps.dir/build.make CMakeFiles/AutoViz_autogen_timestamp_deps.dir/build
-.PHONY : AutoViz_autogen_timestamp_deps/fast
+appAutoViz2_qmltyperegistration/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_qmltyperegistration.dir/build.make CMakeFiles/appAutoViz2_qmltyperegistration.dir/build
+.PHONY : appAutoViz2_qmltyperegistration/fast
 
 #=============================================================================
-# Target rules for targets named AutoViz_autogen
+# Target rules for targets named all_qmltyperegistrations
 
 # Build rule for target.
-AutoViz_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AutoViz_autogen
-.PHONY : AutoViz_autogen
+all_qmltyperegistrations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmltyperegistrations
+.PHONY : all_qmltyperegistrations
 
 # fast build rule for target.
-AutoViz_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz_autogen.dir/build.make CMakeFiles/AutoViz_autogen.dir/build
-.PHONY : AutoViz_autogen/fast
+all_qmltyperegistrations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmltyperegistrations.dir/build.make CMakeFiles/all_qmltyperegistrations.dir/build
+.PHONY : all_qmltyperegistrations/fast
 
-AutoViz_autogen/mocs_compilation.o: AutoViz_autogen/mocs_compilation.cpp.o
-.PHONY : AutoViz_autogen/mocs_compilation.o
+#=============================================================================
+# Target rules for targets named appAutoViz2_qmllint
+
+# Build rule for target.
+appAutoViz2_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_qmllint
+.PHONY : appAutoViz2_qmllint
+
+# fast build rule for target.
+appAutoViz2_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_qmllint.dir/build.make CMakeFiles/appAutoViz2_qmllint.dir/build
+.PHONY : appAutoViz2_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_qmllint_json
+
+# Build rule for target.
+appAutoViz2_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_qmllint_json
+.PHONY : appAutoViz2_qmllint_json
+
+# fast build rule for target.
+appAutoViz2_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_qmllint_json.dir/build.make CMakeFiles/appAutoViz2_qmllint_json.dir/build
+.PHONY : appAutoViz2_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_qmllint_module
+
+# Build rule for target.
+appAutoViz2_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_qmllint_module
+.PHONY : appAutoViz2_qmllint_module
+
+# fast build rule for target.
+appAutoViz2_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_qmllint_module.dir/build.make CMakeFiles/appAutoViz2_qmllint_module.dir/build
+.PHONY : appAutoViz2_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint
+
+# Build rule for target.
+all_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint
+.PHONY : all_qmllint
+
+# fast build rule for target.
+all_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint.dir/build.make CMakeFiles/all_qmllint.dir/build
+.PHONY : all_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_json
+
+# Build rule for target.
+all_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_json
+.PHONY : all_qmllint_json
+
+# fast build rule for target.
+all_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_json.dir/build.make CMakeFiles/all_qmllint_json.dir/build
+.PHONY : all_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_module
+
+# Build rule for target.
+all_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_module
+.PHONY : all_qmllint_module
+
+# fast build rule for target.
+all_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_module.dir/build.make CMakeFiles/all_qmllint_module.dir/build
+.PHONY : all_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_copy_qml
+
+# Build rule for target.
+appAutoViz2_copy_qml: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_copy_qml
+.PHONY : appAutoViz2_copy_qml
+
+# fast build rule for target.
+appAutoViz2_copy_qml/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_copy_qml.dir/build.make CMakeFiles/appAutoViz2_copy_qml.dir/build
+.PHONY : appAutoViz2_copy_qml/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_copy_res
+
+# Build rule for target.
+appAutoViz2_copy_res: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_copy_res
+.PHONY : appAutoViz2_copy_res
+
+# fast build rule for target.
+appAutoViz2_copy_res/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_copy_res.dir/build.make CMakeFiles/appAutoViz2_copy_res.dir/build
+.PHONY : appAutoViz2_copy_res/fast
+
+#=============================================================================
+# Target rules for targets named module_appAutoViz2_aotstats_target
+
+# Build rule for target.
+module_appAutoViz2_aotstats_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 module_appAutoViz2_aotstats_target
+.PHONY : module_appAutoViz2_aotstats_target
+
+# fast build rule for target.
+module_appAutoViz2_aotstats_target/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_appAutoViz2_aotstats_target.dir/build.make CMakeFiles/module_appAutoViz2_aotstats_target.dir/build
+.PHONY : module_appAutoViz2_aotstats_target/fast
+
+#=============================================================================
+# Target rules for targets named all_aotstats
+
+# Build rule for target.
+all_aotstats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_aotstats
+.PHONY : all_aotstats
+
+# fast build rule for target.
+all_aotstats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/build
+.PHONY : all_aotstats/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_qmlimportscan
+
+# Build rule for target.
+appAutoViz2_qmlimportscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_qmlimportscan
+.PHONY : appAutoViz2_qmlimportscan
+
+# fast build rule for target.
+appAutoViz2_qmlimportscan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_qmlimportscan.dir/build.make CMakeFiles/appAutoViz2_qmlimportscan.dir/build
+.PHONY : appAutoViz2_qmlimportscan/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_autogen_timestamp_deps
+
+# Build rule for target.
+appAutoViz2_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_autogen_timestamp_deps
+.PHONY : appAutoViz2_autogen_timestamp_deps
+
+# fast build rule for target.
+appAutoViz2_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_autogen_timestamp_deps.dir/build.make CMakeFiles/appAutoViz2_autogen_timestamp_deps.dir/build
+.PHONY : appAutoViz2_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named appAutoViz2_autogen
+
+# Build rule for target.
+appAutoViz2_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 appAutoViz2_autogen
+.PHONY : appAutoViz2_autogen
+
+# fast build rule for target.
+appAutoViz2_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2_autogen.dir/build.make CMakeFiles/appAutoViz2_autogen.dir/build
+.PHONY : appAutoViz2_autogen/fast
+
+appAutoViz2_autogen/mocs_compilation.o: appAutoViz2_autogen/mocs_compilation.cpp.o
+.PHONY : appAutoViz2_autogen/mocs_compilation.o
 
 # target to build an object file
-AutoViz_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/AutoViz_autogen/mocs_compilation.cpp.o
-.PHONY : AutoViz_autogen/mocs_compilation.cpp.o
+appAutoViz2_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/appAutoViz2_autogen/mocs_compilation.cpp.o
+.PHONY : appAutoViz2_autogen/mocs_compilation.cpp.o
 
-AutoViz_autogen/mocs_compilation.i: AutoViz_autogen/mocs_compilation.cpp.i
-.PHONY : AutoViz_autogen/mocs_compilation.i
+appAutoViz2_autogen/mocs_compilation.i: appAutoViz2_autogen/mocs_compilation.cpp.i
+.PHONY : appAutoViz2_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-AutoViz_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/AutoViz_autogen/mocs_compilation.cpp.i
-.PHONY : AutoViz_autogen/mocs_compilation.cpp.i
+appAutoViz2_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/appAutoViz2_autogen/mocs_compilation.cpp.i
+.PHONY : appAutoViz2_autogen/mocs_compilation.cpp.i
 
-AutoViz_autogen/mocs_compilation.s: AutoViz_autogen/mocs_compilation.cpp.s
-.PHONY : AutoViz_autogen/mocs_compilation.s
+appAutoViz2_autogen/mocs_compilation.s: appAutoViz2_autogen/mocs_compilation.cpp.s
+.PHONY : appAutoViz2_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-AutoViz_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/AutoViz_autogen/mocs_compilation.cpp.s
-.PHONY : AutoViz_autogen/mocs_compilation.cpp.s
+appAutoViz2_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/appAutoViz2_autogen/mocs_compilation.cpp.s
+.PHONY : appAutoViz2_autogen/mocs_compilation.cpp.s
+
+appautoviz2_qmltyperegistrations.o: appautoviz2_qmltyperegistrations.cpp.o
+.PHONY : appautoviz2_qmltyperegistrations.o
+
+# target to build an object file
+appautoviz2_qmltyperegistrations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/appautoviz2_qmltyperegistrations.cpp.o
+.PHONY : appautoviz2_qmltyperegistrations.cpp.o
+
+appautoviz2_qmltyperegistrations.i: appautoviz2_qmltyperegistrations.cpp.i
+.PHONY : appautoviz2_qmltyperegistrations.i
+
+# target to preprocess a source file
+appautoviz2_qmltyperegistrations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/appautoviz2_qmltyperegistrations.cpp.i
+.PHONY : appautoviz2_qmltyperegistrations.cpp.i
+
+appautoviz2_qmltyperegistrations.s: appautoviz2_qmltyperegistrations.cpp.s
+.PHONY : appautoviz2_qmltyperegistrations.s
+
+# target to generate assembly for a file
+appautoviz2_qmltyperegistrations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/appautoviz2_qmltyperegistrations.cpp.s
+.PHONY : appautoviz2_qmltyperegistrations.cpp.s
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.o: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.o
+
+# target to build an object file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.o
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.i: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.i
+
+# target to preprocess a source file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.i
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.s: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.s
+
+# target to generate assembly for a file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.cpp.s
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.o: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.o
+
+# target to build an object file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.o
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.i: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.i
+
+# target to preprocess a source file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.i
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.s: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.s
+
+# target to generate assembly for a file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.cpp.s
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.o: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.o
+
+# target to build an object file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.o
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.i: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.i
+
+# target to preprocess a source file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.i
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.s: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.s
+
+# target to generate assembly for a file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.cpp.s
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.o: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.o
+
+# target to build an object file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.o
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.i: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.i
+
+# target to preprocess a source file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.i
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.s: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.s
+
+# target to generate assembly for a file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.cpp.s
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.o: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.o
+
+# target to build an object file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.o
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.i: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.i
+
+# target to preprocess a source file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.i
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.s: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.s
+
+# target to generate assembly for a file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.cpp.s
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.o: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.o
+
+# target to build an object file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.o
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.o
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.i: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.i
+
+# target to preprocess a source file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.i
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.i
+
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.s: build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.s
+
+# target to generate assembly for a file
+build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.s
+.PHONY : build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+managejson.o: managejson.cpp.o
+.PHONY : managejson.o
+
+# target to build an object file
+managejson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/managejson.cpp.o
+.PHONY : managejson.cpp.o
+
+managejson.i: managejson.cpp.i
+.PHONY : managejson.i
+
+# target to preprocess a source file
+managejson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/managejson.cpp.i
+.PHONY : managejson.cpp.i
+
+managejson.s: managejson.cpp.s
+.PHONY : managejson.s
+
+# target to generate assembly for a file
+managejson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/managejson.cpp.s
+.PHONY : managejson.cpp.s
+
+ntdata.o: ntdata.cpp.o
+.PHONY : ntdata.o
+
+# target to build an object file
+ntdata.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/ntdata.cpp.o
+.PHONY : ntdata.cpp.o
+
+ntdata.i: ntdata.cpp.i
+.PHONY : ntdata.i
+
+# target to preprocess a source file
+ntdata.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/ntdata.cpp.i
+.PHONY : ntdata.cpp.i
+
+ntdata.s: ntdata.cpp.s
+.PHONY : ntdata.s
+
+# target to generate assembly for a file
+ntdata.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/ntdata.cpp.s
+.PHONY : ntdata.cpp.s
+
+projects.o: projects.cpp.o
+.PHONY : projects.o
+
+# target to build an object file
+projects.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/projects.cpp.o
+.PHONY : projects.cpp.o
+
+projects.i: projects.cpp.i
+.PHONY : projects.i
+
+# target to preprocess a source file
+projects.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/projects.cpp.i
+.PHONY : projects.cpp.i
+
+projects.s: projects.cpp.s
+.PHONY : projects.s
+
+# target to generate assembly for a file
+projects.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appAutoViz2.dir/build.make CMakeFiles/appAutoViz2.dir/projects.cpp.s
+.PHONY : projects.cpp.s
 
 # Help Target
 help:
@@ -236,12 +669,58 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... AutoViz_autogen"
-	@echo "... AutoViz_autogen_timestamp_deps"
-	@echo "... AutoViz"
-	@echo "... AutoViz_autogen/mocs_compilation.o"
-	@echo "... AutoViz_autogen/mocs_compilation.i"
-	@echo "... AutoViz_autogen/mocs_compilation.s"
+	@echo "... all_aotstats"
+	@echo "... all_qmllint"
+	@echo "... all_qmllint_json"
+	@echo "... all_qmllint_module"
+	@echo "... all_qmltyperegistrations"
+	@echo "... appAutoViz2_autogen"
+	@echo "... appAutoViz2_autogen_timestamp_deps"
+	@echo "... appAutoViz2_copy_qml"
+	@echo "... appAutoViz2_copy_res"
+	@echo "... appAutoViz2_qmlimportscan"
+	@echo "... appAutoViz2_qmllint"
+	@echo "... appAutoViz2_qmllint_json"
+	@echo "... appAutoViz2_qmllint_module"
+	@echo "... appAutoViz2_qmltyperegistration"
+	@echo "... module_appAutoViz2_aotstats_target"
+	@echo "... appAutoViz2"
+	@echo "... appAutoViz2_autogen/mocs_compilation.o"
+	@echo "... appAutoViz2_autogen/mocs_compilation.i"
+	@echo "... appAutoViz2_autogen/mocs_compilation.s"
+	@echo "... appautoviz2_qmltyperegistrations.o"
+	@echo "... appautoviz2_qmltyperegistrations.i"
+	@echo "... appautoviz2_qmltyperegistrations.s"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.o"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.i"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_appAutoViz2_raw_qml_0.s"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.o"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.i"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/rcc/qrc_qmake_AutoViz2.s"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.o"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.i"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Main_qml.s"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.o"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.i"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_Robot_qml.s"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.o"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.i"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_SimScreen_qml.s"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.o"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.i"
+	@echo "... build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.rcc/qmlcache/appAutoViz2_qmlcache_loader.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... managejson.o"
+	@echo "... managejson.i"
+	@echo "... managejson.s"
+	@echo "... ntdata.o"
+	@echo "... ntdata.i"
+	@echo "... ntdata.s"
+	@echo "... projects.o"
+	@echo "... projects.i"
+	@echo "... projects.s"
 .PHONY : help
 
 

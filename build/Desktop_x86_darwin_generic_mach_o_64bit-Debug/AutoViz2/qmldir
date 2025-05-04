@@ -1,0 +1,7 @@
+module AutoViz2
+typeinfo appAutoViz2.qmltypes
+prefer :/qt/qml/AutoViz2/
+Main 1.0 Main.qml
+SimScreen 1.0 SimScreen.qml
+Robot 1.0 Robot.qml
+

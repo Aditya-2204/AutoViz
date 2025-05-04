@@ -1,91 +1,51 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(AutoViz VERSION 0.1 LANGUAGES CXX)
+project(AutoViz2 VERSION 0.1 LANGUAGES CXX)
 
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-
-set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Network)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Network)
+find_package(Qt6 REQUIRED COMPONENTS Quick Network)
 
+qt_standard_project_setup(REQUIRES 6.5)
 
-set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+qt_add_executable(appAutoViz2
+    main.cpp
+    managejson.h
+
+    managejson.cpp
+
+    ntdata.cpp
+    ntdata.h
+    projects.h projects.cpp
 )
 
-if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(AutoViz
-        MANUAL_FINALIZATION
-        ${PROJECT_SOURCES}
-        resource.qrc
-        Robot.ui
-
-
-        managejson.h managejson.cpp
-
-        ntdata.cpp
-        ntdata.h
-        projects.h projects.cpp
-
-
-
-
-
-
-
-    )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET AutoViz APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
-else()
-    if(ANDROID)
-        add_library(AutoViz SHARED
-            ${PROJECT_SOURCES}
-        )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-    else()
-        add_executable(AutoViz
-            ${PROJECT_SOURCES}
-        )
-    endif()
-endif()
-
-target_link_libraries(AutoViz
-    PRIVATE
-        Qt::Widgets
-        Qt::Network
+qt_add_qml_module(appAutoViz2
+    URI AutoViz2
+    VERSION 1.0
+    QML_FILES
+        Main.qml
+        QML_FILES SimScreen.qml
+        QML_FILES Robot.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
-if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.AutoViz)
-endif()
-set_target_properties(AutoViz PROPERTIES
-    ${BUNDLE_ID_OPTION}
+set_target_properties(appAutoViz2 PROPERTIES
+#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appAutoViz2
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
 
+target_link_libraries(appAutoViz2
+    PRIVATE Qt6::Quick
+)
+
 include(GNUInstallDirs)
-install(TARGETS AutoViz
+install(TARGETS appAutoViz2
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
-
-if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(AutoViz)
-endif()

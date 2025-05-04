@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 12
+                    }
+                ],
+                "filepath": "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz2/Other.qml"
+            }
+        ],
+        "moduleId": "AutoViz2(appAutoViz2)"
+    }
+]
