@@ -13,8 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/AutoViz.dir/AutoViz_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/AutoViz.dir/kinematics.cpp.o"
   "CMakeFiles/AutoViz.dir/kinematics.cpp.o.d"
-  "CMakeFiles/AutoViz.dir/loadFileDialog.cpp.o"
-  "CMakeFiles/AutoViz.dir/loadFileDialog.cpp.o.d"
   "CMakeFiles/AutoViz.dir/main.cpp.o"
   "CMakeFiles/AutoViz.dir/main.cpp.o.d"
   "CMakeFiles/AutoViz.dir/mainwindow.cpp.o"

@@ -48,8 +48,6 @@ static constexpr auto qt_meta_stringdata_ZN9NTManagerE = QtMocHelpers::stringDat
     "intervalMs",
     "stopPolling",
     "stopServer",
-    "computeRobotVelocity",
-    "modules",
     "onReadyRead",
     "pollNetworkTables"
 );
@@ -63,7 +61,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN9NTManagerE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      10,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -71,19 +69,18 @@ Q_CONSTINIT static const uint qt_meta_data_ZN9NTManagerE[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   80,    2, 0x06,    1 /* Public */,
+       1,    1,   74,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       4,    0,   83,    2, 0x0a,    3 /* Public */,
-       5,    0,   84,    2, 0x0a,    4 /* Public */,
-       6,    0,   85,    2, 0x0a,    5 /* Public */,
-       7,    1,   86,    2, 0x0a,    6 /* Public */,
-       7,    0,   89,    2, 0x2a,    8 /* Public | MethodCloned */,
-       9,    0,   90,    2, 0x0a,    9 /* Public */,
-      10,    0,   91,    2, 0x0a,   10 /* Public */,
-      11,    1,   92,    2, 0x10a,   11 /* Public | MethodIsConst  */,
-      13,    0,   95,    2, 0x08,   13 /* Private */,
-      14,    0,   96,    2, 0x08,   14 /* Private */,
+       4,    0,   77,    2, 0x0a,    3 /* Public */,
+       5,    0,   78,    2, 0x0a,    4 /* Public */,
+       6,    0,   79,    2, 0x0a,    5 /* Public */,
+       7,    1,   80,    2, 0x0a,    6 /* Public */,
+       7,    0,   83,    2, 0x2a,    8 /* Public | MethodCloned */,
+       9,    0,   84,    2, 0x0a,    9 /* Public */,
+      10,    0,   85,    2, 0x0a,   10 /* Public */,
+      11,    0,   86,    2, 0x08,   11 /* Private */,
+      12,    0,   87,    2, 0x08,   12 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QJsonObject,    3,
@@ -96,7 +93,6 @@ Q_CONSTINIT static const uint qt_meta_data_ZN9NTManagerE[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::QVector2D, QMetaType::QJsonObject,   12,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -130,9 +126,6 @@ Q_CONSTINIT const QMetaObject NTManager::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'stopServer'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'computeRobotVelocity'
-        QtPrivate::TypeAndForceComplete<QVector2D, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJsonObject &, std::false_type>,
         // method 'onReadyRead'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'pollNetworkTables'
@@ -154,10 +147,8 @@ void NTManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 5: _t->startPolling(); break;
         case 6: _t->stopPolling(); break;
         case 7: _t->stopServer(); break;
-        case 8: { QVector2D _r = _t->computeRobotVelocity((*reinterpret_cast< std::add_pointer_t<QJsonObject>>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QVector2D*>(_a[0]) = std::move(_r); }  break;
-        case 9: _t->onReadyRead(); break;
-        case 10: _t->pollNetworkTables(); break;
+        case 8: _t->onReadyRead(); break;
+        case 9: _t->pollNetworkTables(); break;
         default: ;
         }
     }
@@ -192,14 +183,14 @@ int NTManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 10;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 11;
+        _id -= 10;
     }
     return _id;
 }

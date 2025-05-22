@@ -946,6 +946,12 @@
 			null
 		],
 		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/failuredetection.h",
+			"MU",
+			"EWIEGA46WW/moc_failuredetection.cpp",
+			null
+		],
+		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.h",
 			"MU",
 			"EWIEGA46WW/moc_kinematics.cpp",
@@ -1003,6 +1009,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external",
 		"/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers",
 		"/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework",
 		"/Users/adityachakraborty/Qt/6.8.2/macos/mkspecs/macx-clang",
@@ -1068,11 +1075,6 @@
 	[
 		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.cpp",
 			"MU",
 			null
 		],

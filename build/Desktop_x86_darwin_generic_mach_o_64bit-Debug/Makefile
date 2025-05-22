@@ -285,30 +285,6 @@ kinematics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.s
 .PHONY : kinematics.cpp.s
 
-loadFileDialog.o: loadFileDialog.cpp.o
-.PHONY : loadFileDialog.o
-
-# target to build an object file
-loadFileDialog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/loadFileDialog.cpp.o
-.PHONY : loadFileDialog.cpp.o
-
-loadFileDialog.i: loadFileDialog.cpp.i
-.PHONY : loadFileDialog.i
-
-# target to preprocess a source file
-loadFileDialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/loadFileDialog.cpp.i
-.PHONY : loadFileDialog.cpp.i
-
-loadFileDialog.s: loadFileDialog.cpp.s
-.PHONY : loadFileDialog.s
-
-# target to generate assembly for a file
-loadFileDialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/loadFileDialog.cpp.s
-.PHONY : loadFileDialog.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -430,9 +406,6 @@ help:
 	@echo "... kinematics.o"
 	@echo "... kinematics.i"
 	@echo "... kinematics.s"
-	@echo "... loadFileDialog.o"
-	@echo "... loadFileDialog.i"
-	@echo "... loadFileDialog.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

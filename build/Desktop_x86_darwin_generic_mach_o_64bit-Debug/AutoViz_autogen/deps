@@ -775,18 +775,24 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz_autogen/moc_predefs.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/3.28.0/CMakeCXXCompiler.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/3.28.0/CMakeSystem.cmake \
-	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/failuredetection.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/main.cpp \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/mainwindow.cpp \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/mainwindow.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/managejson.cpp \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/managejson.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/resources.qrc \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QCoreApplication \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QProcess \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
@@ -974,7 +980,10 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetwork-config.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkexports.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qfiledialog.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \

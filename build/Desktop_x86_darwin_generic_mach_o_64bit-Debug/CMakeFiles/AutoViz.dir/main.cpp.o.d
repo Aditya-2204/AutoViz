@@ -993,6 +993,26 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qline.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtQml.framework/Headers/QQmlContext \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtQml.framework/Headers/qqmlcontext.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/QApplication \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qapplication.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qcursor.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qaction.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qkeysequence.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qpalette.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qbrush.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qfont.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qendian.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qfontmetrics.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qfontinfo.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/managejson.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QJsonObject \
@@ -1002,7 +1022,6 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qcborcommon.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/quuid.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qendian.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QString \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QProcess \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qprocess.h \
@@ -1073,4 +1092,9 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qvectornd.h
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qvectornd.h \
+  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/QFileDIalog \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qdialog.h
