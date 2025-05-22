@@ -946,6 +946,12 @@
 			null
 		],
 		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.h",
+			"MU",
+			"EWIEGA46WW/moc_kinematics.cpp",
+			null
+		],
+		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.h",
 			"MU",
 			"EWIEGA46WW/moc_loadFileDialog.cpp",
@@ -1060,6 +1066,11 @@
 	"SETTINGS_FILE" : "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/AutoViz_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.cpp",
 			"MU",

@@ -171,10 +171,24 @@ CMakeFiles/AutoViz.dir/manageprojects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutoViz.dir/manageprojects.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.cpp -o CMakeFiles/AutoViz.dir/manageprojects.cpp.s
 
+CMakeFiles/AutoViz.dir/kinematics.cpp.o: CMakeFiles/AutoViz.dir/flags.make
+CMakeFiles/AutoViz.dir/kinematics.cpp.o: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp
+CMakeFiles/AutoViz.dir/kinematics.cpp.o: CMakeFiles/AutoViz.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AutoViz.dir/kinematics.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutoViz.dir/kinematics.cpp.o -MF CMakeFiles/AutoViz.dir/kinematics.cpp.o.d -o CMakeFiles/AutoViz.dir/kinematics.cpp.o -c /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp
+
+CMakeFiles/AutoViz.dir/kinematics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutoViz.dir/kinematics.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp > CMakeFiles/AutoViz.dir/kinematics.cpp.i
+
+CMakeFiles/AutoViz.dir/kinematics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutoViz.dir/kinematics.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp -o CMakeFiles/AutoViz.dir/kinematics.cpp.s
+
 CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/AutoViz.dir/flags.make
 CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o: AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/AutoViz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp
 
 CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -193,6 +207,7 @@ AutoViz_OBJECTS = \
 "CMakeFiles/AutoViz.dir/managejson.cpp.o" \
 "CMakeFiles/AutoViz.dir/loadFileDialog.cpp.o" \
 "CMakeFiles/AutoViz.dir/manageprojects.cpp.o" \
+"CMakeFiles/AutoViz.dir/kinematics.cpp.o" \
 "CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target AutoViz
@@ -204,6 +219,7 @@ AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/mainwindow.cpp.o
 AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/managejson.cpp.o
 AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/loadFileDialog.cpp.o
 AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/manageprojects.cpp.o
+AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/kinematics.cpp.o
 AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp.o
 AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/build.make
 AutoViz.app/Contents/MacOS/AutoViz: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
@@ -218,7 +234,7 @@ AutoViz.app/Contents/MacOS/AutoViz: /Users/adityachakraborty/Qt/6.8.2/macos/lib/
 AutoViz.app/Contents/MacOS/AutoViz: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
 AutoViz.app/Contents/MacOS/AutoViz: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/QtCore
 AutoViz.app/Contents/MacOS/AutoViz: CMakeFiles/AutoViz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable AutoViz.app/Contents/MacOS/AutoViz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable AutoViz.app/Contents/MacOS/AutoViz"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AutoViz.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

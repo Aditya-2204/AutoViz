@@ -261,6 +261,30 @@ AutoViz_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/AutoViz_autogen/mocs_compilation.cpp.s
 .PHONY : AutoViz_autogen/mocs_compilation.cpp.s
 
+kinematics.o: kinematics.cpp.o
+.PHONY : kinematics.o
+
+# target to build an object file
+kinematics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.o
+.PHONY : kinematics.cpp.o
+
+kinematics.i: kinematics.cpp.i
+.PHONY : kinematics.i
+
+# target to preprocess a source file
+kinematics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.i
+.PHONY : kinematics.cpp.i
+
+kinematics.s: kinematics.cpp.s
+.PHONY : kinematics.s
+
+# target to generate assembly for a file
+kinematics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.s
+.PHONY : kinematics.cpp.s
+
 loadFileDialog.o: loadFileDialog.cpp.o
 .PHONY : loadFileDialog.o
 
@@ -403,6 +427,9 @@ help:
 	@echo "... AutoViz_autogen/mocs_compilation.o"
 	@echo "... AutoViz_autogen/mocs_compilation.i"
 	@echo "... AutoViz_autogen/mocs_compilation.s"
+	@echo "... kinematics.o"
+	@echo "... kinematics.i"
+	@echo "... kinematics.s"
 	@echo "... loadFileDialog.o"
 	@echo "... loadFileDialog.i"
 	@echo "... loadFileDialog.s"
