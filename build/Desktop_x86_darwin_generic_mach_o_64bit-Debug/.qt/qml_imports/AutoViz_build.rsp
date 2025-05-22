@@ -1,0 +1,9 @@
+-rootPath
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz
+-cmake-output
+-output-file
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/qml_imports/AutoViz_build.cmake
+-importPath
+/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug
+-importPath
+/Users/adityachakraborty/Qt/6.8.2/macos/qml
