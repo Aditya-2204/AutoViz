@@ -66,10 +66,10 @@ include CMakeFiles/AutoViz_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/AutoViz_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
 CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/libexec/uic
 CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/libexec/moc
 CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
 CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtQml.framework/Versions/A/QtQml
 CMakeFiles/AutoViz_autogen_timestamp_deps: /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtQuickControls2.framework/Versions/A/QtQuickControls2
 
