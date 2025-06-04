@@ -8,6 +8,7 @@
 
 #include "../../../../NTManager.h"
 #include <QtCore/qmetatype.h>
+#include <QtCore/QList>
 
 #include <QtCore/qtmochelpers.h>
 
@@ -38,8 +39,9 @@ struct qt_meta_tag_ZN9NTManagerE_t {};
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN9NTManagerE = QtMocHelpers::stringData(
     "NTManager",
-    "moduleDataReceived",
+    "receiveData",
     "",
+    "QList<int>",
     "data",
     "startServer",
     "connectToNT",
@@ -71,23 +73,23 @@ Q_CONSTINIT static const uint qt_meta_data_ZN9NTManagerE[] = {
        1,    1,   68,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       4,    0,   71,    2, 0x0a,    3 /* Public */,
-       5,    0,   72,    2, 0x0a,    4 /* Public */,
-       6,    0,   73,    2, 0x0a,    5 /* Public */,
-       7,    1,   74,    2, 0x0a,    6 /* Public */,
-       7,    0,   77,    2, 0x2a,    8 /* Public | MethodCloned */,
-       9,    0,   78,    2, 0x0a,    9 /* Public */,
-      10,    0,   79,    2, 0x0a,   10 /* Public */,
-      11,    0,   80,    2, 0x0a,   11 /* Public */,
+       5,    0,   71,    2, 0x0a,    3 /* Public */,
+       6,    0,   72,    2, 0x0a,    4 /* Public */,
+       7,    0,   73,    2, 0x0a,    5 /* Public */,
+       8,    1,   74,    2, 0x0a,    6 /* Public */,
+       8,    0,   77,    2, 0x2a,    8 /* Public | MethodCloned */,
+      10,    0,   78,    2, 0x0a,    9 /* Public */,
+      11,    0,   79,    2, 0x0a,   10 /* Public */,
+      12,    0,   80,    2, 0x0a,   11 /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QJsonObject,    3,
+    QMetaType::Void, 0x80000000 | 3,    4,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,    8,
+    QMetaType::Void, QMetaType::Int,    9,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -105,9 +107,9 @@ Q_CONSTINIT const QMetaObject NTManager::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN9NTManagerE_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<NTManager, std::true_type>,
-        // method 'moduleDataReceived'
+        // method 'receiveData'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QJsonObject, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QVector<int> &, std::false_type>,
         // method 'startServer'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'connectToNT'
@@ -134,7 +136,7 @@ void NTManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     auto *_t = static_cast<NTManager *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->moduleDataReceived((*reinterpret_cast< std::add_pointer_t<QJsonObject>>(_a[1]))); break;
+        case 0: _t->receiveData((*reinterpret_cast< std::add_pointer_t<QList<int>>>(_a[1]))); break;
         case 1: _t->startServer(); break;
         case 2: _t->connectToNT(); break;
         case 3: _t->connectToNTActual(); break;
@@ -146,11 +148,23 @@ void NTManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         default: ;
         }
     }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+        case 0:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QList<int> >(); break;
+            }
+            break;
+        }
+    }
     if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (NTManager::*)(QJsonObject );
-            if (_q_method_type _q_method = &NTManager::moduleDataReceived; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _q_method_type = void (NTManager::*)(const QVector<int> & );
+            if (_q_method_type _q_method = &NTManager::receiveData; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -183,14 +197,14 @@ int NTManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 9)
-            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+            qt_static_metacall(this, _c, _id, _a);
         _id -= 9;
     }
     return _id;
 }
 
 // SIGNAL 0
-void NTManager::moduleDataReceived(QJsonObject _t1)
+void NTManager::receiveData(const QVector<int> & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

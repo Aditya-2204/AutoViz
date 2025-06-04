@@ -1223,5 +1223,6 @@ CMakeFiles/AutoViz.dir/NTManager.cpp.o: \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfilesystemwatcher.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QtMath \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/SwerveModule.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QElapsedTimer

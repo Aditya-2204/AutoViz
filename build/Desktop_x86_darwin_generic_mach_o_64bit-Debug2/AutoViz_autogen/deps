@@ -424,12 +424,6 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
@@ -438,14 +432,10 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
@@ -631,7 +621,6 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
@@ -666,7 +655,6 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
@@ -775,14 +763,18 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/CMakeLists.txt \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/Kinematics.h \
-	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.cpp \
-	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/SwerveModule.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/.qt/qml_imports/AutoViz_conf.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/.qtc/package-manager/auto-setup.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/AutoViz_autogen/moc_predefs.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/CMakeFiles/3.28.0/CMakeCXXCompiler.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/CMakeFiles/3.28.0/CMakeSystem.cmake \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Cholesky \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Core \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Dense \
@@ -978,19 +970,13 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/resources.qrc \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QCoreApplication \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QFileSystemWatcher \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QProcess \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QTextStream \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QtMath \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -1005,15 +991,12 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcborcommon.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcborvalue.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -1025,19 +1008,13 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdirlisting.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
@@ -1057,9 +1034,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qjsondocument.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qjsonobject.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qjsonvalue.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
@@ -1073,7 +1047,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
@@ -1086,7 +1059,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -1120,8 +1092,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
@@ -1135,7 +1105,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/quuid.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
@@ -1164,9 +1133,7 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/QHostAddress \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/QTcpSocket \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qabstractsocket.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qhostaddress.h \

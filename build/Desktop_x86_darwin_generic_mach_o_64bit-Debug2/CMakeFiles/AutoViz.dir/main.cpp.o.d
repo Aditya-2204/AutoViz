@@ -1013,16 +1013,61 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qfontinfo.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.h \
-  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/managejson.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QJsonObject \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qjsonobject.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qjsonvalue.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qcborvalue.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qcborcommon.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/quuid.h \
+  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/QTcpSocket \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/qhostaddress.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QFile \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/format \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/stack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/print \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QTextStream \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QProcess \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qprocess.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QFileSystemWatcher \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfilesystemwatcher.h \
+  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QString \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/QFileDIalog \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qdirlisting.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/Kinematics.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Dense \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Core \
@@ -1035,20 +1080,6 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_fp16.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/complex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/format \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/queue \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/deque.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/queue.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/deque \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/stack.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/unistd.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/MKL_support.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/Constants.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/Meta.h \
@@ -1235,65 +1266,6 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QMap \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QDebug \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QProcess \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qprocess.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QDir \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qdir.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qdirlisting.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfiledevice.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfile.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/filesystem \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/iomanip \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfileinfo.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/QTcpSocket \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/qhostaddress.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QJsonDocument \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qjsondocument.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QStringList \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers/QHostAddress \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QTimer \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qtimer.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qbasictimer.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QCoreApplication \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QThread \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qthread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/future \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/thread \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/jthread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Headers/qvectornd.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QFileSystemWatcher \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfilesystemwatcher.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QObject \
-  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/QFileDIalog \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qdialog.h
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QtMath \
+  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.h

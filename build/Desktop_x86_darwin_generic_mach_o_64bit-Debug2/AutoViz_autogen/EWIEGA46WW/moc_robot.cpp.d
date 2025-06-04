@@ -929,6 +929,7 @@
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/ReshapedMethods.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QtMath \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \

@@ -946,15 +946,27 @@
 			null
 		],
 		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.h",
-			"MU",
-			"EWIEGA46WW/moc_NTManager.cpp",
-			null
-		],
-		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/SwerveModule.h",
 			"MU",
 			"EWIEGA46WW/moc_SwerveModule.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.h",
+			"MU",
+			"EWIEGA46WW/moc_appcontroller.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.h",
+			"MU",
+			"EWIEGA46WW/moc_autovizdatamanager.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.h",
+			"MU",
+			"EWIEGA46WW/moc_csvwriter.cpp",
 			null
 		],
 		[
@@ -1086,7 +1098,17 @@
 	"SOURCES" : 
 	[
 		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.cpp",
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.cpp",
 			"MU",
 			null
 		],

@@ -974,6 +974,7 @@
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QtMath \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
