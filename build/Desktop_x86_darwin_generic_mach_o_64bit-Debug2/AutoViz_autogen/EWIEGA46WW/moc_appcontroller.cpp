@@ -41,7 +41,8 @@ static constexpr auto qt_meta_stringdata_ZN13AppControllerE = QtMocHelpers::stri
     "stopServer",
     "",
     "startNewProject",
-    "projectName"
+    "projectName",
+    "projectDir"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -62,11 +63,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13AppControllerE[] = {
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
        1,    0,   26,    2, 0x02,    1 /* Public */,
-       3,    1,   27,    2, 0x02,    2 /* Public */,
+       3,    2,   27,    2, 0x02,    2 /* Public */,
 
  // methods: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    4,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,    4,    5,
 
        0        // eod
 };
@@ -84,6 +85,7 @@ Q_CONSTINIT const QMetaObject AppController::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'startNewProject'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString, std::false_type>
     >,
     nullptr
@@ -95,7 +97,7 @@ void AppController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->stopServer(); break;
-        case 1: _t->startNewProject((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 1: _t->startNewProject((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
         default: ;
         }
     }

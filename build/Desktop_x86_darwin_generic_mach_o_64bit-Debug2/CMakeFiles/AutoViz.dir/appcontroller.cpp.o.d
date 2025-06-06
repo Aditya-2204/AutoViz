@@ -970,4 +970,18 @@ CMakeFiles/AutoViz.dir/appcontroller.cpp.o: \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qprocess.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QFileSystemWatcher \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfilesystemwatcher.h \
+  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/managejson.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QJsonObject \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qjsonobject.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qjsonvalue.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qcborvalue.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qcborcommon.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/quuid.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qendian.h \
+  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QString \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QDebug

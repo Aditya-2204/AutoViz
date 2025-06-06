@@ -82,8 +82,8 @@ clean: CMakeFiles/AutoViz_autogen.dir/clean
 
 # All Build rule for target.
 CMakeFiles/AutoViz.dir/all: CMakeFiles/AutoViz_qmlimportscan.dir/all
-CMakeFiles/AutoViz.dir/all: CMakeFiles/AutoViz_autogen_timestamp_deps.dir/all
 CMakeFiles/AutoViz.dir/all: CMakeFiles/AutoViz_autogen.dir/all
+CMakeFiles/AutoViz.dir/all: CMakeFiles/AutoViz_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target AutoViz"

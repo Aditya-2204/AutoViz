@@ -1,4 +1,7 @@
 import logging
+import threading
+
+stop_event = threading.Event()
 
 def extract_and_send():
     """
@@ -56,7 +59,7 @@ def extract_and_send():
     print(f"Client connected from {addr}")
 
     try:
-        while True:
+        while not stop_event.is_set():
             clear_terminal()
             packet={}
             start_time = time.time()

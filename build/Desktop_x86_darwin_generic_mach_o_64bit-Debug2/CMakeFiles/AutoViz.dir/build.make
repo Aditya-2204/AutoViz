@@ -81,6 +81,7 @@ AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/AutoViz_autogen.dir/Aut
 AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/app-logo.png
 AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/2025\ REEFSCAPE\ Transparent\ Background.png
 AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robotsettings.qml
+AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/setupscreen.qml
 AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.qml
 AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/main.qml
 AutoViz_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/simscreen.qml

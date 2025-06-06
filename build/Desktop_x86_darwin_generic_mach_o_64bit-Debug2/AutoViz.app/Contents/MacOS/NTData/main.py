@@ -7,7 +7,7 @@ import os
 import json
 
 from Start_Server import start_server  # renamed function
-from Extract import extract_and_send
+from Extract import extract_and_send, stop_event
 
 
 # Global so the main thread can access it
