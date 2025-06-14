@@ -1,13 +1,19 @@
-import pandas as pd
-import numpy as np
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
 import sys
 import subprocess
 import os
+import json
 
 try:
     projectName = sys.argv[1]
-    width = sys.argv[2]
-    height = sys.argv[3]
+
+    with open("../projects.json","r") as f:
+        projects = json.load(f)
+        width = projects[projectName]['Robot']['Width']
+        width = projects[projectName]['Robot']['Width']
+        height = projects[projectName]['Robot']['Length']
+
     df=pd.read_csv(f"../{projectName}.csv")
 except Exception as e:
     print(f"Error: {e}")
@@ -42,28 +48,46 @@ def remove_duplicates(df) -> pd.DataFrame:
 clean_df = remove_duplicates(df)
 
 def getModuleData(width: float, height: float, LB_angle, LF_angle, RB_angle, RF_angle, LB_velocity, LF_velocity, RB_velocity, RF_velocity) -> str:
-    os.chdir("../Motion Modelling/build")
-    result = subprocess.run(["./motionmodel", 
-              f"{width} {height} {LB_angle} {LF_angle} {RB_angle} {RF_angle} "
-              f"{LB_velocity} {LF_velocity} {RB_velocity} {RF_velocity}"
-              ])
-    return result.stdout
+    result = subprocess.run([
+        "./motionmodel",
+        str(width), str(height),
+        str(LB_angle), str(LF_angle), str(RB_angle), str(RF_angle),
+        str(LB_velocity), str(LF_velocity), str(RB_velocity), str(RF_velocity)
+    ], 
+    capture_output=True, 
+    text=True,
+    cwd="../Motion Modelling/build")
+
+    return result.stdout.strip()
 
 for i in range(len(clean_df)):
-    LB_angle = clean_df.at(i, 'LB_angle') #Fix AtIndex Error
-    LF_angle = clean_df.at(i, 'LF_angle')
-    RB_angle = clean_df.at(i, 'RB_angle')
-    RF_angle = clean_df.at(i, 'RF_angle')
-    LB_velocity = clean_df.at(i, 'LB_velocity')
-    LF_velocity = clean_df.at(i, 'LF_velocity')
-    RB_velocity = clean_df.at(i, 'RB_velocity')
-    RF_velocity = clean_df.at(i, 'RF_velocity')
 
-    print(f"LB_angle: {LB_angle}, LF_angle: {LF_angle}, "
-          f"RB_angle: {RB_angle}, RF_angle: {RF_angle}, "
-          f"LB_velocity: {LB_velocity}, LF_velocity: {LF_velocity}, "
-          f"RB_velocity: {RB_velocity}, RF_velocity: {RF_velocity}")
+    LB_angle = clean_df.iloc[i]['LB_angle'] #Fix AtIndex Error
+    LF_angle = clean_df.iloc[i]['LF_angle']
+    RB_angle = clean_df.iloc[i]['RB_angle']
+    RF_angle = clean_df.iloc[i]['RF_angle']
+
+    LB_velocity = clean_df.iloc[i]['LB_velocity']
+    LF_velocity = clean_df.iloc[i]['LF_velocity']
+    RB_velocity = clean_df.iloc[i]['RB_velocity']
+    RF_velocity = clean_df.iloc[i]['RF_velocity']
 
     module_data = getModuleData(width, height, LB_angle, LF_angle, RB_angle, RF_angle, LB_velocity, LF_velocity, RB_velocity, RF_velocity)
     
-    print(module_data)
+    v_x, v_y, omega = module_data.strip().split()
+
+
+    v_x = float(v_x)
+    v_y = float(v_y)
+    omega = float(omega)
+
+    clean_df.loc[i, 'v_x'] = v_x
+    clean_df.loc[i, 'v_y'] = v_y
+    clean_df.loc[i, 'omega'] = omega
+
+last_row = clean_df.iloc[-1]
+if(last_row['v_x']==0 and last_row['v_y']==0 and last_row['omega']==0):
+    clean_df = clean_df[:-1]
+    # Remove the last row if it contains all zeros for v_x, v_y, and omega
+
+clean_df.to_csv(f"../{projectName}.csv", index=False)

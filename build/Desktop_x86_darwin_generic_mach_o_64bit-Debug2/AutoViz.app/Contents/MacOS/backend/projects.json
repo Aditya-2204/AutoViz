@@ -1,5 +1,5 @@
 {
-    "Demo2": {
+    "NT1": {
         "Project-Directory": "/Users/adityachakraborty/Desktop/Code/Java/Robotics/2025/NetworkTablesDrivetrain",
         "Robot": {
             "Coef": 1.2,
@@ -9,109 +9,8 @@
             "module-type": "MK4i"
         }
     },
-    "Diddy": {
+    "NT2": {
         "Project-Directory": "/Users/adityachakraborty/Desktop/Code/Java/Robotics/2025/NetworkTablesDrivetrain",
-        "Robot": {
-            "Coef": 1.2,
-            "Length": 1,
-            "Mass": 50,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Diddy 2": {
-        "Project-Directory": "/Users/adityachakraborty/Desktop/Code/Java/Robotics/2025/NetworkTablesDrivetrain",
-        "Robot": {
-            "Coef": 1.2,
-            "Length": 1,
-            "Mass": 50,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 1": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 2": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 3": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 4": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 5": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 6": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 7": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 8": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "Project 9": {
-        "Robot": {
-            "Coef": 1.1,
-            "Length": 1,
-            "Mass": 40,
-            "Width": 1,
-            "module-type": "MK4i"
-        }
-    },
-    "ProjectName": {
-        "Project-Directory": "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug2/AutoViz.app/Contents/MacOS/Mod Data",
         "Robot": {
             "Coef": 1.2,
             "Length": 1,

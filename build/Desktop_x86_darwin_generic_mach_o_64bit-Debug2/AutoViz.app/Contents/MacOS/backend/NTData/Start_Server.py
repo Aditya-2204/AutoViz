@@ -1,4 +1,4 @@
-def start_server():
+def start_server(projectName):
     import json
     import subprocess
     import os
@@ -8,8 +8,6 @@ def start_server():
 
     # Global so the main thread can access it
     gradle_proc = None
-
-    projectName = sys.argv[1] if len(sys.argv) > 1 else None
 
 
     # Get project directory

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e8beab24e40baa76cc21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AutoViz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AutoViz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AutoViz-Debug-d1b58adb0d981cd7cc94.json",
+					"name" : "AutoViz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AutoViz_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AutoViz_autogen-Debug-b4d2b2d4be7b9f9adc46.json",
+					"name" : "AutoViz_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AutoViz_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AutoViz_autogen_timestamp_deps-Debug-845eb4d63c4ed7303aa0.json",
+					"name" : "AutoViz_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AutoViz_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AutoViz_qmlimportscan-Debug-89453e911b1708cbb9a0.json",
+					"name" : "AutoViz_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+		"source" : "/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

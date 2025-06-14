@@ -424,12 +424,6 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
@@ -438,14 +432,10 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
@@ -611,6 +601,7 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
@@ -630,7 +621,6 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
@@ -665,7 +655,6 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
@@ -766,18 +755,210 @@ AutoViz_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_arg.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_copy.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_bf16.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_fp16.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_neon.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_vector_types.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/CMakeLists.txt \
-	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/SwerveModule.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qt/qml_imports/AutoViz_conf.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/AutoViz_autogen/moc_predefs.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/3.28.0/CMakeCXXCompiler.cmake \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/3.28.0/CMakeSystem.cmake \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.cpp \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Cholesky \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Core \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Dense \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Eigenvalues \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Geometry \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Householder \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Jacobi \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/LU \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/QR \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/SVD \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Cholesky/LDLT.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Cholesky/LLT.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/ArithmeticSequence.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Array.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/ArrayBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/ArrayWrapper.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Assign.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/AssignEvaluator.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/BandMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Block.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/BooleanRedux.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CommaInitializer.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/ConditionEstimator.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CoreEvaluators.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CoreIterators.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CwiseBinaryOp.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CwiseNullaryOp.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CwiseTernaryOp.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CwiseUnaryOp.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/CwiseUnaryView.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/DenseBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/DenseCoeffsBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/DenseStorage.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Diagonal.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/DiagonalMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/DiagonalProduct.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Dot.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/EigenBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Fuzzy.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/GeneralProduct.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/GenericPacketMath.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/GlobalFunctions.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/IO.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/IndexedView.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Inverse.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Map.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/MapBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/MathFunctions.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/MathFunctionsImpl.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Matrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/MatrixBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/NestByValue.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/NoAlias.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/NumTraits.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/PartialReduxEvaluator.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/PermutationMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/PlainObjectBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Product.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/ProductEvaluators.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Random.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Redux.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Ref.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Replicate.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Reshaped.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/ReturnByValue.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Reverse.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Select.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/SelfAdjointView.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/SelfCwiseBinaryOp.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Solve.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/SolveTriangular.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/SolverBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/StableNorm.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/StlIterators.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Stride.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Swap.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Transpose.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Transpositions.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/TriangularMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/VectorBlock.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/VectorwiseOp.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/Visitor.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/BFloat16.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/ConjHelper.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/Half.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/Settings.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/Default/TypeCasting.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/NEON/Complex.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/NEON/MathFunctions.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/NEON/PacketMath.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/arch/NEON/TypeCasting.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/functors/AssignmentFunctors.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/functors/BinaryFunctors.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/functors/NullaryFunctors.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/functors/StlFunctors.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/functors/TernaryFunctors.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/functors/UnaryFunctors.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/GeneralMatrixVector.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/Parallelizer.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/SelfadjointProduct.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/SelfadjointRank2Update.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/TriangularMatrixVector.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/TriangularSolverMatrix.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/products/TriangularSolverVector.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/BlasUtil.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/ConfigureVectorization.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/Constants.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/DisableStupidWarnings.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/ForwardDeclarations.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/IndexedViewHelper.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/IntegralConstant.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/MKL_support.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/Macros.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/Memory.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/Meta.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/ReenableStupidWarnings.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/ReshapedHelper.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/StaticAssert.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/SymbolicIndex.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/XprHelper.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/ComplexSchur.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/EigenSolver.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/RealQZ.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/RealSchur.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/Tridiagonalization.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/AlignedBox.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/AngleAxis.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/EulerAngles.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Homogeneous.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Hyperplane.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/OrthoMethods.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/ParametrizedLine.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Quaternion.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Rotation2D.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/RotationBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Scaling.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Transform.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Translation.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/Umeyama.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Householder/BlockHouseholder.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Householder/Householder.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Householder/HouseholderSequence.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Jacobi/Jacobi.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/LU/Determinant.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/LU/FullPivLU.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/LU/InverseImpl.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/LU/PartialPivLU.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/LU/arch/InverseSize4.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/QR/ColPivHouseholderQR.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/QR/FullPivHouseholderQR.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/QR/HouseholderQR.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/SVD/BDCSVD.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/SVD/JacobiSVD.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/SVD/SVDBase.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/SVD/UpperBidiagonalization.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/misc/Image.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/misc/Kernel.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/misc/RealSvd2x2.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/BlockMethods.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/IndexedViewMethods.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/plugins/ReshapedMethods.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/failuredetection.h \
-	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp \
-	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/loadFileDialog.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/main.cpp \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/mainwindow.cpp \
@@ -787,17 +968,14 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.cpp \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.h \
 	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/resources.qrc \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QCoreApplication \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
+	/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QFileSystemWatcher \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QProcess \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QString \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QTextStream \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/QtMath \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -812,15 +990,12 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcborcommon.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcborvalue.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -832,23 +1007,18 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qdirlisting.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfileinfo.h \
+	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfilesystemwatcher.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -863,9 +1033,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qjsondocument.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qjsonobject.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qjsonvalue.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
@@ -879,7 +1046,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
@@ -892,7 +1058,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -926,8 +1091,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
@@ -941,7 +1104,6 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/quuid.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
@@ -970,9 +1132,7 @@ AutoViz_autogen/timestamp: \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/QHostAddress \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/QTcpSocket \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qabstractsocket.h \
 	/Users/adityachakraborty/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/Headers/qhostaddress.h \

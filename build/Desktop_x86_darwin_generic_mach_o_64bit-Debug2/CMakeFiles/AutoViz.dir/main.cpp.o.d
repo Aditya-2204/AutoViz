@@ -1068,7 +1068,7 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qdirlisting.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/qfileinfo.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtWidgets.framework/Headers/qdialog.h \
-  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/Kinematics.h \
+  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Dense \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/Core \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -1264,8 +1264,5 @@ CMakeFiles/AutoViz.dir/main.cpp.o: \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/./RealQZ.h \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/external/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QMap \
-  /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QDebug \
-  /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h \
   /Users/adityachakraborty/Qt/6.8.2/macos/lib/QtCore.framework/Headers/QtMath \
   /Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.h

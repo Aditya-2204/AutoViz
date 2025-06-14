@@ -261,29 +261,77 @@ AutoViz_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/AutoViz_autogen/mocs_compilation.cpp.s
 .PHONY : AutoViz_autogen/mocs_compilation.cpp.s
 
-kinematics.o: kinematics.cpp.o
-.PHONY : kinematics.o
+appcontroller.o: appcontroller.cpp.o
+.PHONY : appcontroller.o
 
 # target to build an object file
-kinematics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.o
-.PHONY : kinematics.cpp.o
+appcontroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/appcontroller.cpp.o
+.PHONY : appcontroller.cpp.o
 
-kinematics.i: kinematics.cpp.i
-.PHONY : kinematics.i
+appcontroller.i: appcontroller.cpp.i
+.PHONY : appcontroller.i
 
 # target to preprocess a source file
-kinematics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.i
-.PHONY : kinematics.cpp.i
+appcontroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/appcontroller.cpp.i
+.PHONY : appcontroller.cpp.i
 
-kinematics.s: kinematics.cpp.s
-.PHONY : kinematics.s
+appcontroller.s: appcontroller.cpp.s
+.PHONY : appcontroller.s
 
 # target to generate assembly for a file
-kinematics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/kinematics.cpp.s
-.PHONY : kinematics.cpp.s
+appcontroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/appcontroller.cpp.s
+.PHONY : appcontroller.cpp.s
+
+autovizdatamanager.o: autovizdatamanager.cpp.o
+.PHONY : autovizdatamanager.o
+
+# target to build an object file
+autovizdatamanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/autovizdatamanager.cpp.o
+.PHONY : autovizdatamanager.cpp.o
+
+autovizdatamanager.i: autovizdatamanager.cpp.i
+.PHONY : autovizdatamanager.i
+
+# target to preprocess a source file
+autovizdatamanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/autovizdatamanager.cpp.i
+.PHONY : autovizdatamanager.cpp.i
+
+autovizdatamanager.s: autovizdatamanager.cpp.s
+.PHONY : autovizdatamanager.s
+
+# target to generate assembly for a file
+autovizdatamanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/autovizdatamanager.cpp.s
+.PHONY : autovizdatamanager.cpp.s
+
+csvwriter.o: csvwriter.cpp.o
+.PHONY : csvwriter.o
+
+# target to build an object file
+csvwriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/csvwriter.cpp.o
+.PHONY : csvwriter.cpp.o
+
+csvwriter.i: csvwriter.cpp.i
+.PHONY : csvwriter.i
+
+# target to preprocess a source file
+csvwriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/csvwriter.cpp.i
+.PHONY : csvwriter.cpp.i
+
+csvwriter.s: csvwriter.cpp.s
+.PHONY : csvwriter.s
+
+# target to generate assembly for a file
+csvwriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoViz.dir/build.make CMakeFiles/AutoViz.dir/csvwriter.cpp.s
+.PHONY : csvwriter.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -403,9 +451,15 @@ help:
 	@echo "... AutoViz_autogen/mocs_compilation.o"
 	@echo "... AutoViz_autogen/mocs_compilation.i"
 	@echo "... AutoViz_autogen/mocs_compilation.s"
-	@echo "... kinematics.o"
-	@echo "... kinematics.i"
-	@echo "... kinematics.s"
+	@echo "... appcontroller.o"
+	@echo "... appcontroller.i"
+	@echo "... appcontroller.s"
+	@echo "... autovizdatamanager.o"
+	@echo "... autovizdatamanager.i"
+	@echo "... autovizdatamanager.s"
+	@echo "... csvwriter.o"
+	@echo "... csvwriter.i"
+	@echo "... csvwriter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

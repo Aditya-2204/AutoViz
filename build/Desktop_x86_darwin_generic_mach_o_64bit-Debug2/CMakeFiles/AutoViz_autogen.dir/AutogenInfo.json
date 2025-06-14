@@ -940,12 +940,6 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/Kinematics.h",
-			"MU",
-			"EWIEGA46WW/moc_Kinematics.cpp",
-			null
-		],
-		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/SwerveModule.h",
 			"MU",
 			"EWIEGA46WW/moc_SwerveModule.cpp",

@@ -58,11 +58,11 @@ def extract_and_send():
 
     print(f"Client connected from {addr}")
 
+    prev_ts = time.time()
     try:
         while not stop_event.is_set():
             clear_terminal()
             packet={}
-            start_time = time.time()
             for type, name in swerve_module_names.items():
                 angle = swerve_table.getNumber(f"{name}/angle", 0)
                 velocity = swerve_table.getNumber(f"{name}/velocity", 0)
@@ -72,7 +72,8 @@ def extract_and_send():
                 }
             end_time = time.time()
             packet['Robot State'] = swerve_table.getString("Robot State", "Unknown")
-            packet['timestamp'] = end_time-start_time
+            packet['timestamp']=end_time-prev_ts
+            prev_ts = end_time
             packet=(json.dumps(packet)+'\n').encode()
             client_socket.sendall(packet)
     except KeyboardInterrupt:

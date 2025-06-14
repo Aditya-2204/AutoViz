@@ -9,9 +9,9 @@ import json
 from Start_Server import start_server  # renamed function
 from Extract import extract_and_send, stop_event
 
-
+projectName = sys.argv[1]
 # Global so the main thread can access it
-(cleanup, start_gradlew) = start_server()  # Call the renamed function
+(cleanup, start_gradlew) = start_server(projectName)  # Call the renamed function
 
 if __name__ == "__main__":
     # Set up signal handlers in main thread

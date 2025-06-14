@@ -940,21 +940,33 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/NTManager.h",
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/SwerveModule.h",
 			"MU",
-			"EWIEGA46WW/moc_NTManager.cpp",
+			"EWIEGA46WW/moc_SwerveModule.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.h",
+			"MU",
+			"EWIEGA46WW/moc_appcontroller.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.h",
+			"MU",
+			"EWIEGA46WW/moc_autovizdatamanager.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.h",
+			"MU",
+			"EWIEGA46WW/moc_csvwriter.cpp",
 			null
 		],
 		[
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/failuredetection.h",
 			"MU",
 			"EWIEGA46WW/moc_failuredetection.cpp",
-			null
-		],
-		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.h",
-			"MU",
-			"EWIEGA46WW/moc_kinematics.cpp",
 			null
 		],
 		[
@@ -979,6 +991,12 @@
 			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/manageprojects.h",
 			"MU",
 			"EWIEGA46WW/moc_manageprojects.cpp",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/robot.h",
+			"MU",
+			"EWIEGA46WW/moc_robot.cpp",
 			null
 		]
 	],
@@ -1074,7 +1092,17 @@
 	"SOURCES" : 
 	[
 		[
-			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/kinematics.cpp",
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/appcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/autovizdatamanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/adityachakraborty/Desktop/Code/C++/Robotics/AutoViz/csvwriter.cpp",
 			"MU",
 			null
 		],
